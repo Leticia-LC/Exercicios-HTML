@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .cabecalho{
+            background: rgb(0, 233, 174);
+        }
+
+        .barraNav{
+            display:flex;
+        }
+
+        .logo img{
+            width: 75px;
+        }
+
+        .menu ul{
+            display: flex;
+            list-style-type: none;
+
+        }
+
+        .menu ul li{
+            margin-left: 15px;
+            font-size: 1.4rem;
+        }
+
+        .secApresentacao{
+            background: #000;
+            background-repeat: no-repeat;
+            border: 1p solid black;
+
+            height: 100%;
+        }
+        
+        .bgFiltro{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            backdrop-filter: blur(5px) greyscale(0.8);
+        }
+
+        .colunas{
+            display: flex;
+        }
+
+        .largura60{
+            width: 60%
+        }
+
+        .largura40{
+            width: 40%
+        }
+
+    </style>
+</head>
+<body>
+    <!-- cabeçalho -->
+    <header class="cabecalho">
+        <nav class="barraNav">
+            <div class="logo">
+                <img src="bunnny.icon.png" alt="logo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>Sobre nós</li>
+                    <li>Nossos Serviços</li>
+                    <li>Produtos</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- principal -->
+    <main>
+        <section class="secApresentacao">
+            <div class="bgFiltro colunas">
+                <div class="largura60">esquerda</div>
+                <div class="largura40">direita</div>
+            </div>
+
+        </section>
+
+        <section class="secSobreNos">
+
+        </section>
+
+        <section class="secNossosServicos">
+
+        </section>
+
+        <section class="secprodutos">
+
+        </section>
+
+        <section class="secContato">
+
+        </section>
+
+    </main>
+    <!-- rodapé -->
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
